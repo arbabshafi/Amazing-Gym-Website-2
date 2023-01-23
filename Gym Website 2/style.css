@@ -1,0 +1,158 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+   
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 6px;
+
+}
+
+#blue {
+    color: #74b9ff;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 8px;
+}
+
+.menu a:first-child {
+    border-bottom: 2px solid #74b9ff;
+}
+
+.icon img {
+    width: 150px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.left {
+    flex-basis:50%;
+}
+
+.right {
+    flex-basis: 60%;
+    max-width: 400px;
+}
+
+.right h3{
+    color: #74b9ff;
+    font-size: 50px;
+}
+
+.right p{
+    font-size: 25px;
+    margin:10px 0px;
+}
+
+.btn {
+    background: transparent;
+    padding: 10px 20px;
+    color: #74b9ff;
+    border: 1px solid #74b9ff;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+#about{
+    padding: 100px,0px;
+}
+.about-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: center;
+}
+.about-right-col img{
+    width: 80%;
+}
+.about-left-col{
+    max-width: 400px;
+    margin: auto;
+}
+.about-left-col h1{
+    font-size: 50px;
+}
+.about-left-col p{
+    font-size: 30px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+.c-btn{
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    border: none;
+    background-color: #74b9ff;
+    cursor: pointer;
+
+}
+#signup{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0.03);
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.signup-row{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+}
+.signup-left-col{
+    flex-basis: 50%;
+   
+}
+.signup-left-col img{
+    width: 50%;
+    
+}
+.signup-right-col{
+    flex-basis: 30%;
+}
+.signup-right-col h1{
+    font-size: 70px; 
+    margin: 10px 10px; 
+    text-align: right;  
+}
+.signup-right-col h2{
+    font-size: 45px;
+    letter-spacing: 30px;
+    color: rgba(0,0,0,0.3);
+    margin: 10px 0px;
+    text-align: right; 
+}
